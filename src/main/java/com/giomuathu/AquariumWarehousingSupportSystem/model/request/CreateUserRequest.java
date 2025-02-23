@@ -18,6 +18,24 @@ public class CreateUserRequest {
     private String avatar;
     private int roleId;
 
+    public CreateUserRequest() {
+    }
+
+    public CreateUserRequest(String username, String password, String name, Date dob,
+                             String email, String phone, String address, boolean isActive,
+                             String avatar, int roleId) {
+        this.username = username;
+        this.password = password;
+        this.name = name;
+        this.dob = dob;
+        this.email = email;
+        this.phone = phone;
+        this.address = address;
+        this.isActive = isActive;
+        this.avatar = avatar;
+        this.roleId = roleId;
+    }
+
     public String getUsername() {
         return username;
     }

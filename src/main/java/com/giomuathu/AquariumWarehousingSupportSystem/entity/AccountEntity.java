@@ -25,12 +25,29 @@ public class AccountEntity {
     private boolean isActive;
     private String avatar;
     private int roleId;
+    private String token;
 
-//    @OneToMany(mappedBy = "userId", cascade = CascadeType.ALL)
-//    @EqualsAndHashCode.Exclude
-//    @ToString.Exclude
-//    private Set<ProductEntity> products;
+    @OneToMany(mappedBy = "userId", cascade = CascadeType.ALL)
+    @EqualsAndHashCode.Exclude
+    @ToString.Exclude
+    private Set<ProductEntity> products;
 
+    public AccountEntity() {
+    }
+
+    public AccountEntity(Long userId, String username, String password, String name, Date dob, String email, String phone, String address, boolean isActive, String avatar, int roleId) {
+        this.userId = userId;
+        this.username = username;
+        this.password = password;
+        this.name = name;
+        this.dob = dob;
+        this.email = email;
+        this.phone = phone;
+        this.address = address;
+        this.isActive = isActive;
+        this.avatar = avatar;
+        this.roleId = roleId;
+    }
 
     public Long getUserId() {
         return userId;
@@ -118,5 +135,13 @@ public class AccountEntity {
 
     public void setRoleId(int roleId) {
         this.roleId = roleId;
+    }
+
+    public String getToken() {
+        return token;
+    }
+
+    public void setToken(String token) {
+        this.token = token;
     }
 }
