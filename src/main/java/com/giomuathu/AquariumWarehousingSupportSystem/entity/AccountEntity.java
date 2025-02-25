@@ -1,15 +1,17 @@
 package com.giomuathu.AquariumWarehousingSupportSystem.entity;
 
 import jakarta.persistence.*;
-import lombok.Data;
-import lombok.EqualsAndHashCode;
-import lombok.ToString;
+import lombok.*;
 
 import java.util.Date;
 import java.util.Set;
 
 @Entity
 @Data
+@NoArgsConstructor
+@AllArgsConstructor
+@Getter
+@Setter
 @Table(name = "account")
 public class AccountEntity {
     @Id
@@ -31,9 +33,6 @@ public class AccountEntity {
     @EqualsAndHashCode.Exclude
     @ToString.Exclude
     private Set<ProductEntity> products;
-
-    public AccountEntity() {
-    }
 
     public AccountEntity(Long userId, String username, String password, String name, Date dob, String email, String phone, String address, boolean isActive, String avatar, int roleId) {
         this.userId = userId;

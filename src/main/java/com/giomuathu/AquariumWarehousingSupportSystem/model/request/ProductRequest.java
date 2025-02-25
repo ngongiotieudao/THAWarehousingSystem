@@ -1,64 +1,68 @@
-package com.giomuathu.AquariumWarehousingSupportSystem.entity;
+package com.giomuathu.AquariumWarehousingSupportSystem.model.request;
 
 import lombok.*;
 
-import jakarta.persistence.*;
-
 import java.util.Date;
 
-@Entity
+
 @Data
-@Table(name = "product")
 @NoArgsConstructor
 @AllArgsConstructor
 @Getter
 @Setter
-public class ProductEntity {
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+public class ProductRequest {
+    @Getter
     private Long productId;
 
+    @Getter
     private String productName;
 
+    @Getter
     private Date createdDate;
 
+    @Getter
     private String productCode;
 
+    @Getter
     private int barCode;
 
+    @Getter
     private double unitPrice;
 
+    @Getter
     private double retailPrice;
 
+    @Getter
     private double wholesalePrice;
 
+    @Getter
     private Date modifyCreate;
 
+    @Getter
     private String description;
 
+    @Getter
     private String tag;
 
     private boolean isSale;
 
+    @Getter
     private int saleQuantity;
 
+    @Getter
     private int stockQuantity;
 
-    @ManyToOne()
-    @JoinColumn(name = "brandId")
-    BrandEntity brandId;
+    @Getter
+    Long brandId;
 
-    @ManyToOne()
-    @JoinColumn(name = "unitId")
-    UnitEntity unitId;
+    @Getter
+    Long unitId;
 
-    @ManyToOne()
-    @JoinColumn(name = "userId")
-    AccountEntity userId;
+    @Getter
+    Long userId;
 
-    @ManyToOne()
-    @JoinColumn(name = "supplierId")
-    SupplierEntity supplierId;
+    @Getter
+    Long supplierId;
 
     public Long getProductId() {
         return productId;
@@ -172,35 +176,35 @@ public class ProductEntity {
         this.stockQuantity = stockQuantity;
     }
 
-    public BrandEntity getBrandId() {
+    public Long getBrandId() {
         return brandId;
     }
 
-    public void setBrandId(BrandEntity brandId) {
+    public void setBrandId(Long brandId) {
         this.brandId = brandId;
     }
 
-    public UnitEntity getUnitId() {
+    public Long getUnitId() {
         return unitId;
     }
 
-    public void setUnitId(UnitEntity unitId) {
+    public void setUnitId(Long unitId) {
         this.unitId = unitId;
     }
 
-    public AccountEntity getUserId() {
+    public Long getUserId() {
         return userId;
     }
 
-    public void setUserId(AccountEntity userId) {
+    public void setUserId(Long userId) {
         this.userId = userId;
     }
 
-    public SupplierEntity getSupplierId() {
+    public Long getSupplierId() {
         return supplierId;
     }
 
-    public void setSupplierId(SupplierEntity supplierId) {
+    public void setSupplierId(Long supplierId) {
         this.supplierId = supplierId;
     }
 }

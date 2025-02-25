@@ -1,21 +1,20 @@
-package com.giomuathu.AquariumWarehousingSupportSystem.entity;
+package com.giomuathu.AquariumWarehousingSupportSystem.model.response;
 
+import com.giomuathu.AquariumWarehousingSupportSystem.entity.AccountEntity;
+import com.giomuathu.AquariumWarehousingSupportSystem.entity.BrandEntity;
+import com.giomuathu.AquariumWarehousingSupportSystem.entity.SupplierEntity;
+import com.giomuathu.AquariumWarehousingSupportSystem.entity.UnitEntity;
 import lombok.*;
-
-import jakarta.persistence.*;
 
 import java.util.Date;
 
-@Entity
 @Data
-@Table(name = "product")
 @NoArgsConstructor
 @AllArgsConstructor
 @Getter
 @Setter
-public class ProductEntity {
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+public class ProductDTO {
+
     private Long productId;
 
     private String productName;
@@ -44,21 +43,13 @@ public class ProductEntity {
 
     private int stockQuantity;
 
-    @ManyToOne()
-    @JoinColumn(name = "brandId")
-    BrandEntity brandId;
+    BrandDTO brandId;
 
-    @ManyToOne()
-    @JoinColumn(name = "unitId")
-    UnitEntity unitId;
+    UnitDTO unitId;
 
-    @ManyToOne()
-    @JoinColumn(name = "userId")
-    AccountEntity userId;
+    AccountDTO userId;
 
-    @ManyToOne()
-    @JoinColumn(name = "supplierId")
-    SupplierEntity supplierId;
+    SupplierDTO supplierId;
 
     public Long getProductId() {
         return productId;
@@ -172,35 +163,35 @@ public class ProductEntity {
         this.stockQuantity = stockQuantity;
     }
 
-    public BrandEntity getBrandId() {
+    public BrandDTO getBrandId() {
         return brandId;
     }
 
-    public void setBrandId(BrandEntity brandId) {
+    public void setBrandId(BrandDTO brandId) {
         this.brandId = brandId;
     }
 
-    public UnitEntity getUnitId() {
+    public UnitDTO getUnitId() {
         return unitId;
     }
 
-    public void setUnitId(UnitEntity unitId) {
+    public void setUnitId(UnitDTO unitId) {
         this.unitId = unitId;
     }
 
-    public AccountEntity getUserId() {
+    public AccountDTO getUserId() {
         return userId;
     }
 
-    public void setUserId(AccountEntity userId) {
+    public void setUserId(AccountDTO userId) {
         this.userId = userId;
     }
 
-    public SupplierEntity getSupplierId() {
+    public SupplierDTO getSupplierId() {
         return supplierId;
     }
 
-    public void setSupplierId(SupplierEntity supplierId) {
+    public void setSupplierId(SupplierDTO supplierId) {
         this.supplierId = supplierId;
     }
 }
