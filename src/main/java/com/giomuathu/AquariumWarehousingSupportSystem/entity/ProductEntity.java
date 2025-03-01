@@ -9,10 +9,10 @@ import java.util.Date;
 @Entity
 @Data
 @Table(name = "product")
-@NoArgsConstructor
-@AllArgsConstructor
-@Getter
-@Setter
+//@NoArgsConstructor
+//@AllArgsConstructor
+//@Getter
+//@Setter
 public class ProductEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)

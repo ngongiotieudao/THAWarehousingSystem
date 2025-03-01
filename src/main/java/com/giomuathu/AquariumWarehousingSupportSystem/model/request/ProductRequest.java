@@ -6,62 +6,49 @@ import java.util.Date;
 
 
 @Data
-@NoArgsConstructor
-@AllArgsConstructor
-@Getter
-@Setter
+//@NoArgsConstructor
+//@AllArgsConstructor
+//@Getter
+//@Setter
 public class ProductRequest {
-    @Getter
+
     private Long productId;
 
-    @Getter
+
     private String productName;
 
-    @Getter
+
     private Date createdDate;
 
-    @Getter
+
     private String productCode;
 
-    @Getter
     private int barCode;
 
-    @Getter
     private double unitPrice;
 
-    @Getter
     private double retailPrice;
 
-    @Getter
     private double wholesalePrice;
 
-    @Getter
     private Date modifyCreate;
 
-    @Getter
     private String description;
 
-    @Getter
     private String tag;
 
     private boolean isSale;
 
-    @Getter
     private int saleQuantity;
 
-    @Getter
     private int stockQuantity;
 
-    @Getter
     Long brandId;
 
-    @Getter
     Long unitId;
 
-    @Getter
     Long userId;
 
-    @Getter
     Long supplierId;
 
     public Long getProductId() {

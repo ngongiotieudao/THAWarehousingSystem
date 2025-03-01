@@ -5,23 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55ba6360-9510-49c5-8b6a-b200bf1777f1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/giomuathu/AquariumWarehousingSupportSystem/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/giomuathu/AquariumWarehousingSupportSystem/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/giomuathu/AquariumWarehousingSupportSystem/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/giomuathu/AquariumWarehousingSupportSystem/config/WebSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/giomuathu/AquariumWarehousingSupportSystem/AquariumWarehousingSupportSystemApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/giomuathu/AquariumWarehousingSupportSystem/config/JwtTokenUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/giomuathu/AquariumWarehousingSupportSystem/config/ModelMapperConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/giomuathu/AquariumWarehousingSupportSystem/controller/HelloWorldController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/giomuathu/AquariumWarehousingSupportSystem/controller/JwtAuthenticationController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/giomuathu/AquariumWarehousingSupportSystem/entity/AccountEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/giomuathu/AquariumWarehousingSupportSystem/model/request/CreateUserRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/giomuathu/AquariumWarehousingSupportSystem/model/request/JwtRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/giomuathu/AquariumWarehousingSupportSystem/model/request/LoginUserRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/giomuathu/AquariumWarehousingSupportSystem/model/response/JwtResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/giomuathu/AquariumWarehousingSupportSystem/model/response/UserResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/giomuathu/AquariumWarehousingSupportSystem/repository/UserRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/giomuathu/AquariumWarehousingSupportSystem/service/TokenService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/giomuathu/AquariumWarehousingSupportSystem/constants/EmailConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/giomuathu/AquariumWarehousingSupportSystem/constants/EmailConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/giomuathu/AquariumWarehousingSupportSystem/entity/AccountEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/giomuathu/AquariumWarehousingSupportSystem/entity/AccountEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/giomuathu/AquariumWarehousingSupportSystem/entity/BrandEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/giomuathu/AquariumWarehousingSupportSystem/entity/BrandEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/giomuathu/AquariumWarehousingSupportSystem/entity/ProductEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/giomuathu/AquariumWarehousingSupportSystem/entity/ProductEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/giomuathu/AquariumWarehousingSupportSystem/entity/SupplierEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/giomuathu/AquariumWarehousingSupportSystem/entity/SupplierEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/giomuathu/AquariumWarehousingSupportSystem/entity/UnitEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/giomuathu/AquariumWarehousingSupportSystem/entity/UnitEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/giomuathu/AquariumWarehousingSupportSystem/model/request/ProductRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/giomuathu/AquariumWarehousingSupportSystem/model/request/ProductRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/giomuathu/AquariumWarehousingSupportSystem/model/response/ProductDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/giomuathu/AquariumWarehousingSupportSystem/model/response/ProductDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
