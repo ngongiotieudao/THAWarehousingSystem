@@ -34,6 +34,9 @@ public class AccountEntity {
     @ToString.Exclude
     private Set<ProductEntity> products;
 
+    public AccountEntity() {
+    }
+
     public AccountEntity(Long userId, String username, String password, String name, Date dob, String email, String phone, String address, boolean isActive, String avatar, int roleId) {
         this.userId = userId;
         this.username = username;
