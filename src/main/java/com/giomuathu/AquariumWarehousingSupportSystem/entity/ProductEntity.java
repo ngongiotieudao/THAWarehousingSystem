@@ -60,6 +60,10 @@ public class ProductEntity {
     @JoinColumn(name = "supplierId")
     SupplierEntity supplierId;
 
+    @ManyToOne()
+    @JoinColumn(name = "categoryId")
+    CategoryEntity categoryId;
+
     public Long getProductId() {
         return productId;
     }

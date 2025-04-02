@@ -51,6 +51,8 @@ public class ProductRequest {
 
     Long supplierId;
 
+    Long categoryId;
+
     public Long getProductId() {
         return productId;
     }

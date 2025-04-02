@@ -5,11 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55ba6360-9510-49c5-8b6a-b200bf1777f1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/giomuathu/AquariumWarehousingSupportSystem/controller/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/giomuathu/AquariumWarehousingSupportSystem/entity/CategoryEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/giomuathu/AquariumWarehousingSupportSystem/model/response/CategoryDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/giomuathu/AquariumWarehousingSupportSystem/repository/CategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/giomuathu/AquariumWarehousingSupportSystem/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/giomuathu/AquariumWarehousingSupportSystem/service/impl/CategoryServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/giomuathu/AquariumWarehousingSupportSystem/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/giomuathu/AquariumWarehousingSupportSystem/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/giomuathu/AquariumWarehousingSupportSystem/controller/JwtAuthenticationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/giomuathu/AquariumWarehousingSupportSystem/controller/JwtAuthenticationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/giomuathu/AquariumWarehousingSupportSystem/entity/AccountEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/giomuathu/AquariumWarehousingSupportSystem/entity/AccountEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/giomuathu/AquariumWarehousingSupportSystem/service/impl/TokenServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/giomuathu/AquariumWarehousingSupportSystem/service/impl/TokenServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/giomuathu/AquariumWarehousingSupportSystem/config/JwtTokenUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/giomuathu/AquariumWarehousingSupportSystem/config/JwtTokenUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/giomuathu/AquariumWarehousingSupportSystem/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/giomuathu/AquariumWarehousingSupportSystem/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/giomuathu/AquariumWarehousingSupportSystem/entity/ProductEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/giomuathu/AquariumWarehousingSupportSystem/entity/ProductEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/giomuathu/AquariumWarehousingSupportSystem/model/request/ProductRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/giomuathu/AquariumWarehousingSupportSystem/model/request/ProductRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/giomuathu/AquariumWarehousingSupportSystem/service/impl/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/giomuathu/AquariumWarehousingSupportSystem/service/impl/ProductServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,7 +187,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/giomuathu/AquariumWarehousingSupportSystem/service/impl/TokenServiceImpl.java</url>
           <line>65</line>
-          <properties class="com.giomuathu.AquariumWarehousingSupportSystem.service.impl.TokenServiceImpl" method="authenticate">
+          <properties class="com.giomuathu.AquariumWarehousingSupportSystem.service.impl.TokenServiceImpl">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
